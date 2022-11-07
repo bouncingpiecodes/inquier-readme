@@ -15,6 +15,42 @@ const questions = [
     name: "description",
     message: "Whats your project description?",
   },
+  {
+    type: "input",
+    name: "tableOfContents",
+    message: "Whats your table of contents?",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "Whats your project installation?",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Whats your project usage?",
+  },
+  {
+    type: "rawlist",
+    name: "license",
+    message: "Whats your project license?",
+    choices: ["MIT", "Apache", "GNU", "Mozilla"],
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "How do you contribute?",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "Whats your project tests?",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Whats your project questions?",
+  },
 ];
 
 // TODO: Create a function to write README file
