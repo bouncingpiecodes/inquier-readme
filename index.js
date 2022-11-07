@@ -17,34 +17,29 @@ const questions = [
   },
   {
     type: "input",
-    name: "tableOfContents",
-    message: "Whats your table of contents?",
-  },
-  {
-    type: "input",
     name: "installation",
-    message: "Whats your project installation?",
+    message: "How do you install your project?",
   },
   {
     type: "input",
     name: "usage",
-    message: "Whats your project usage?",
+    message: "How do you use your project?",
   },
   {
     type: "rawlist",
     name: "license",
-    message: "Whats your project license?",
+    message: "Whats license would you prefer to use for your project?",
     choices: ["MIT", "Apache", "GNU", "Mozilla"],
   },
   {
     type: "input",
     name: "contributing",
-    message: "How do you contribute?",
+    message: "How do you contribute to your project?",
   },
   {
     type: "input",
     name: "tests",
-    message: "Whats your project tests?",
+    message: "How do you run tests?",
   },
   {
     type: "input",
